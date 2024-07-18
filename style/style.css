@@ -25,7 +25,7 @@ p{
     color: rgba(240, 248, 255, 0.527);
 }
 .btn-primary{
-   
+   width: 160px;
     background-color: #E6533C;
     border-radius: 40px;
     border: none;
@@ -51,7 +51,7 @@ p{
   .nav-container{
     max-width: 1000px;
     padding: 40px 20px 10px 20px;
-    margin: auto;
+    margin:0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -181,7 +181,7 @@ p{
  
    text-align: center;
 }
-.banner-content-title > h1{
+.banner-content-title > h2{
   padding: 35px 0px 20px 0px;
 }
 /* card styles */
@@ -201,8 +201,36 @@ h6{
   margin-bottom: 10px;
 }
 .card-container{
+  width: 999px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+
+
+
+/* running section style here */
+.running-container{
+  max-width: 850px;
+  backdrop-filter: blur(154px);
+  background: #5c585860;
+  border-radius: 20px;
+  margin: 0px auto;
+  margin-top: 60px;
+  display: flex;
+  padding: 10px 40px;
+  justify-content: space-between;
+}
+.running-container-title{
+  max-width: 300px;
+  display: grid;
+  gap: 15px;
+}
+.running-img img{
+  max-width: 270px;
+  height: 100%;
+  border-radius: 15px;
+}
+
 /* endss main section here */
   
