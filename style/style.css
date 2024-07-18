@@ -3,9 +3,17 @@
     font-family: "Inter", sans-serif;
     
   }
+  @font-face {
+    font-family: 'miama';
+    src: url(./fonts/Miama.ttf);
+    font-weight: 200;
+    font-style:normal;
+    font-size: normal;
+  }
+
 /* shared style */
 *{
-    margin: 0;
+    margin:0;
 }
 p{
     font-size: 15px;
@@ -24,7 +32,6 @@ p{
 
   /* header styles stars here */
   .header-container{
-    border: 1px solid red;
     max-width: 1440px;
     max-height: 100%;
     margin: 0 auto;
@@ -38,16 +45,19 @@ p{
   }
   .nav-container{
     max-width: 1000px;
-    padding: 10px;
-    margin:30px auto;
+    padding: 40px 20px 10px 20px;
+    margin: auto;
     display: flex;
+    align-items: center;
     justify-content: space-between;
    
   }
   .nav-options{
     display: flex;
+    border: 1px solid rgba(95, 91, 91, 0.735);
+    border-radius: 20px;
     gap: 20px;
-    color: whitesmoke;
+    color: rgba(210, 208, 208, 0.811);
   }
   .nav-btn{
     border: none;
@@ -55,6 +65,9 @@ p{
     color: aliceblue;
     border-radius: 40px;
     padding: 5px 15px;
+  }
+  .hamburger{
+   display: none;
   }
 /* nav section ends here */
 
@@ -72,8 +85,11 @@ p{
   }
   h1{
     color: aliceblue;
-    font-size: 75px;
+    font-size: 67px;
     font-weight: 900;
+  }
+  .header-content-title > h1{
+    max-height: 300px;
   }
  
   #download-btn{
@@ -93,6 +109,9 @@ p{
     height: 1.5rem;
     background-color: #E6533C ;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 2px solid #E6533C;
   }
   .header-content-img{
@@ -115,9 +134,8 @@ p{
   .header-content-img-btn-two{
   top: 120px;
   position: absolute;
- 
-    right: -40px;
-    width: 135px;
+  left: 200px;
+    
     display: flex;
     gap: 10px;
     color: aliceblue;
@@ -126,4 +144,7 @@ p{
     border-radius: 5px;
     backdrop-filter: blur(25px);
     border: 1px solid rgba(77, 74, 74, 0.799);
+  }
+  .header-img-content-btn{
+    width: 100%;
   }
