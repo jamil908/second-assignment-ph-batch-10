@@ -15,6 +15,11 @@
 *{
     margin:0;
 }
+.body-container{
+  background: #000000;
+  max-width: 1440px;
+  margin: 0 auto;
+}
 p{
     font-size: 15px;
     color: rgba(240, 248, 255, 0.527);
@@ -35,8 +40,8 @@ p{
     max-width: 1440px;
     max-height: 100%;
     margin: 0 auto;
-    background: linear-gradient(-180.00deg, rgb(17, 17, 17),rgba(21, 20, 20, 0.9) 100%);;
-   backdrop-filter: brightness(-100);
+    background: linear-gradient(180.00deg, rgb(41, 40, 40),rgba(21, 20, 20, 0.674) 100%);
+   
   }
   /* navber section styles here */
 
@@ -90,6 +95,7 @@ p{
   }
   .header-content-title > h1{
     max-height: 300px;
+    
   }
  
   #download-btn{
@@ -99,7 +105,6 @@ p{
     padding: 12px 30px;
     border-radius: 40px;
     border: 1px solid whitesmoke;
-
   }
   .header-btn{
     margin: 30px auto;
@@ -115,6 +120,7 @@ p{
     border: 2px solid #E6533C;
   }
   .header-content-img{
+    margin-bottom: -5px;
     position: relative;
   }
   .header-content-img-btn {
@@ -148,3 +154,55 @@ p{
   .header-img-content-btn{
     width: 100%;
   }
+  .header-img-content-btn h4{
+    font-size: 40px;
+  }
+  /* ends header section here */
+
+
+
+
+
+
+
+
+  /* starts main section here */
+
+  /* starts banner section here */
+
+.banner-container{
+  max-width: 1440px;
+}
+   h2{
+    color: aliceblue;
+    font-size: 20px;
+   }
+.banner-content-title{
+ 
+   text-align: center;
+}
+.banner-content-title > h1{
+  padding: 35px 0px 20px 0px;
+}
+/* card styles */
+.card{
+margin: 30px auto;  
+  max-width: 300px;
+  gap: 20px;
+   text-align: center;
+
+}
+.card > img{
+  border-radius: 50%;
+}
+h6{
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+/* endss main section here */
+  
