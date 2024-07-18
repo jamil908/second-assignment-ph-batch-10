@@ -16,9 +16,9 @@ p{
     background-color: #E6533C;
     border-radius: 40px;
     border: none;
-    padding: 8px 12px;
+    font-size: 15px;
     color: aliceblue;
-    padding: 12px 25px;
+    padding: 12px 30px;
 
   }
 
@@ -27,8 +27,9 @@ p{
     border: 1px solid red;
     max-width: 1440px;
     max-height: 100%;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(19, 17, 17, 0.76) 100%);;
-   filter: brightness(-100);
+    margin: 0 auto;
+    background: linear-gradient(-180.00deg, rgb(17, 17, 17),rgba(21, 20, 20, 0.9) 100%);;
+   backdrop-filter: brightness(-100);
   }
   /* navber section styles here */
 
@@ -38,7 +39,7 @@ p{
   .nav-container{
     max-width: 1000px;
     padding: 10px;
-    margin: 0 auto;
+    margin:30px auto;
     display: flex;
     justify-content: space-between;
    
@@ -59,25 +60,70 @@ p{
 
 
 /* header content styles here */
+.header-content{
+  margin: 0 auto;
+  max-width: 980px;
+  display: flex;
+  justify-content: space-between;
+}
   .header-content-title{
-    max-width: 30%;
+    
   margin: 80px auto;
   }
   h1{
     color: aliceblue;
-    font-size: 55px;
+    font-size: 75px;
     font-weight: 900;
   }
  
   #download-btn{
+    margin-left: 20px;
    background: none;
     color: aliceblue;
-    padding: 12px 25px;
+    padding: 12px 30px;
     border-radius: 40px;
     border: 1px solid whitesmoke;
 
   }
   .header-btn{
     margin: 30px auto;
-    gap: 20px;
+  }
+  .circle{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #E6533C ;
+    border-radius: 50%;
+    border: 2px solid #E6533C;
+  }
+  .header-content-img{
+    position: relative;
+  }
+  .header-content-img-btn {
+    position: absolute;
+    top: 400px;
+    right: 250px;
+    width: 135px;
+    display: flex;
+    gap: 10px;
+    color: aliceblue;
+    align-items: center;
+    padding: 18px;
+    border-radius: 5px;
+    backdrop-filter: blur(25px);
+    border: 1px solid rgba(77, 74, 74, 0.799);
+  }
+  .header-content-img-btn-two{
+  top: 120px;
+  position: absolute;
+ 
+    right: -40px;
+    width: 135px;
+    display: flex;
+    gap: 10px;
+    color: aliceblue;
+    align-items: center;
+    padding: 18px;
+    border-radius: 5px;
+    backdrop-filter: blur(25px);
+    border: 1px solid rgba(77, 74, 74, 0.799);
   }
