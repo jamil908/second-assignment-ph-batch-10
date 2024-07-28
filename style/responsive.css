@@ -1,11 +1,16 @@
 @media screen and (max-width:576px) {
+
+  /* navber responsive */
     .nav-options{
         display: none;
     }
    .nav-container > .hamburger{
       display: block;
     color: aliceblue;
+    font-size: 30px;
     }
+
+    /* header section responsive */
     .header-container{
         
         background: linear-gradient(180.00deg, rgb(41, 40, 40),#151414e4 100%);
@@ -13,6 +18,9 @@
       }
     .header-content{
         flex-direction: column;
+    }
+    .header-content-title {
+      width: 90%;
     }
     .header-content-title > h1{
         font-size: 44px;
@@ -23,6 +31,10 @@
     }
     .header-content-img-btn{
         left: 0px;
+    }
+    .header-content-img-btn-two{
+      top: 83px;
+      left: 234px;
     }
     /* header section ends here */
 
@@ -48,5 +60,29 @@
         margin: 0 20px;
         flex-direction: column;
         gap: 25px;
+       
+        padding: 25px;
+      }
+      .running-container-title{
+        width: 100%;
+      }
+      .running-img img{
+        width: 100%;
+      }
+      
+      
+      
+      .running-container-title >.btn-primary{
+        margin: auto;
+        width: 280px;
+      }
+
+
+      /* bmi-calculate responsive */
+      .bmi-container{
+        flex-direction: column;
+        gap: 60px;
+        justify-content: center;
+        align-items: center;
       }
 }
