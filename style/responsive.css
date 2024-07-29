@@ -103,5 +103,13 @@
       #team-img-one, #team-img-four{
         display: none;
       }
+      #team-img-three{
+        order: 2;
+
+      }
+      #team-img-six{
+        order: 4;
+
+      }
       /* our team section responsive stars here */
 }

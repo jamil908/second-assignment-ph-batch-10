@@ -146,7 +146,7 @@ p{
   top: 120px;
   position: absolute;
   left: 200px;
-    width: 150px;
+    width: 109px;
     display: flex;
     gap: 10px;
     color: aliceblue;
@@ -160,7 +160,7 @@ p{
     width: 100%;
   }
   .header-img-content-btn h4{
-    font-size: 40px;
+    font-size: 25px;
   }
   /* ends header section here */
 
@@ -375,7 +375,6 @@ select{
   top: 200px;
   left: 20px;
 }
-
 
 /* our-team section ends here */
 
