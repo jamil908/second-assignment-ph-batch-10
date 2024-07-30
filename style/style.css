@@ -170,7 +170,6 @@ p{
 
 
 
-
   /* starts main section here */
 
   /* starts banner section here */
@@ -378,5 +377,40 @@ select{
 
 /* our-team section ends here */
 
-/* endss main section here */
-  
+/* ends main section here */
+
+
+/* footer section styles here */
+.footer-container{
+  max-width: 1440px;
+  padding: 50px 80px 0px 80px;
+  background: #5c585860;
+}
+.colum-one{
+  display: grid;
+  gap: 10px;
+}
+.colum-one> h3{
+color: #E6533C;
+height: 0px;
+font-size: 2.5rem;
+}
+.colum-one > p{
+  font-size: 10px;
+}
+.Colum-two, .Colum-three{
+  display: grid;
+  gap: 20px;
+}
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container > p{
+  justify-content: center;
+ 
+    margin-top: 60px;
+    align-items: flex-end;
+    display: flex;
+}
