@@ -84,6 +84,7 @@
         gap: 60px;
         justify-content: center;
         align-items: center;
+        margin-right: 0px;
       }
       /* our team section responsive stars here */
       .our-team-img-container {
@@ -111,5 +112,29 @@
         order: 4;
 
       }
-      /* our team section responsive stars here */
+      /* our team section responsive ends here */
+
+
+
+      /* our footer section responsive starts here */
+      footer{
+        padding-bottom: 0px;
+      }
+      .footer-content{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+      .colum-one{
+        gap: 50px;
+      }
+      .Colum-two, .Colum-three{
+        margin-top: 20px;
+      }
+      .footer-container > p{
+          margin-top: 10px;
+      }
+      .footer-container{
+        margin-right: 0px;
+      }
+      /* our footer section responsive ends here */
 }
